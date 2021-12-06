@@ -7,11 +7,15 @@ $ pip3.7 install requests matplotlib decouple
 ```
 
 ## Running
-Copy the `.env.example` file to `.env` and set your [Financial Modeling Prep](https://site.financialmodelingprep.com) API key inside it. Also, set a company and years to perform the analysis.
+Copy the `.env.example` file to `.env` and set your [Financial Modeling Prep](https://site.financialmodelingprep.com) API key inside it. Also, set a company and time to perform the analysis.
 
 Then:
 ```
 $ python3.7 pyfinance.py
 ```
+
+## References
+
+[Documentation](https://site.financialmodelingprep.com/developer/docs)
 
 # Leonardo Zanotti
